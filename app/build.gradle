@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace 'com.example.applicationmobilesycilines'
+    namespace 'com.example.applicationmobile'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.applicationmobilesycilines"
-        minSdk 24
+        applicationId "com.example.applicationmobile"
+        minSdk 19
         targetSdk 33
         versionCode 1
         versionName "1.0"
