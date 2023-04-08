@@ -1,4 +1,4 @@
-package com.example.applicationmobile;
+package com.example.applicationmobilesycilines.applicationmobile;
 
 import org.junit.Test;
 

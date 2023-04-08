@@ -1,11 +1,11 @@
 package com.example.applicationmobilesycilines;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.transition.Visibility;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.applicationmobile.R;
 
@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
         Button login;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        login= (Button) findViewById(R.id.login);
-
+        login= findViewById(R.id.login);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                Intent loginPage = new Intent(getApplicationContext(), LoginPage.class);
+                startActivity(loginPage);
             }
         });
     }
