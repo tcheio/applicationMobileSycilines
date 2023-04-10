@@ -20,14 +20,14 @@
         tools:ignore="UnknownId" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Traversee"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-20dp"
         android:layout_marginTop="4dp"
-        android:text="Inscription"
+        android:text="Traversée"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toEndOf="@+id/login"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:ignore="HardcodedText,MissingConstraints" />
@@ -36,8 +36,9 @@
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:layout_marginStart="76dp"
 
+        android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button2"
@@ -45,7 +46,7 @@
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintVertical_bias="0.011"
         tools:ignore="HardcodedText,MissingConstraints"
         tools:text="Login" />
 
