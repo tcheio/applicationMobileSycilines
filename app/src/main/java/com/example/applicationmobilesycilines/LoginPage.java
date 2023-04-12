@@ -1,10 +1,10 @@
 package com.example.applicationmobilesycilines;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-import com.example.applicationmobile.R;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.applicationmobilesycilines.R;
 
 public class LoginPage extends AppCompatActivity {
 

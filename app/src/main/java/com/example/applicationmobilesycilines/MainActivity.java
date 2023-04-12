@@ -6,7 +6,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.applicationmobile.R;
+import com.example.applicationmobilesycilines.R;
 
 public class MainActivity extends AppCompatActivity {
 
